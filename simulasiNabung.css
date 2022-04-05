@@ -1,0 +1,983 @@
+/* Montserrat */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Poppins */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Poppins', 'sans-serif';
+}
+
+p {
+    font-family: 'Montserrat', 'sans-serif';
+}
+
+.link-unstyled,
+.link-unstyled:link,
+.link-unstyled:hover {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.poppins {
+    font-family: 'Poppins', 'sans-serif' !important;
+}
+
+.montserrat {
+    font-family: 'Montserrat', 'sans-serif' !important;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.font-green {
+    color: rgb(117, 249, 145);
+}
+
+.font-red {
+    color: red;
+}
+
+.primary-button {
+    border: none;
+    border-radius: 30px !important;
+    background-color: rgb(117, 249, 145) !important;
+}
+
+.border-radius-10 {
+    border-radius: 10px;
+}
+
+.border-radius-1rem {
+    border-radius: 1rem;
+}
+
+.navbar {
+    background-color: black;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+#navbar-title {
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.nav-item {
+    width: fit-content;
+}
+
+.nav-link {
+    font-family: 'Poppins', 'sans-serif';
+    color: white;
+}
+
+.nav-link:hover,
+.nav-link:active {
+    color: rgb(117, 249, 145);
+    transition: 500ms;
+}
+
+#nav-item-login {
+    border: 1px solid rgb(117, 249, 145);
+    border-radius: 10px;
+    color: black;
+}
+
+#nav-item-login:hover {
+    background-color: rgb(117, 249, 145);
+    transition: 500ms;
+}
+
+#nav-link-login {
+    color: rgb(117, 249, 145);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#nav-link-login:hover {
+    color: black;
+}
+
+.fa-list {
+    color: white;
+}
+
+#index-headline h1 {
+    font-weight: bold;
+    text-align: center;
+}
+
+#index-headline h3 {
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: 400;
+}
+
+.index-headline-button {
+    font-family: 'Poppins', 'sans-serif';
+    border-radius: 30px;
+    border-style: none;
+}
+
+#btnMembership,
+#btnCountNabung {
+    background-color: rgb(117, 249, 145);
+}
+
+#btnFinancialCheckUp {
+    background-color: black;
+    color: rgb(117, 249, 145);
+    border: 1px solid rgb(117, 249, 145);
+}
+
+.container-news a {
+    text-decoration: none;
+}
+
+.card-news {
+    background-color: rgb(19, 21, 23);
+    border: 1px solid rgb(51, 51, 51);
+    color: white;
+}
+
+.index-check-circle {
+    color: rgb(117, 249, 145);
+}
+
+.card-packets {
+    background-color: rgb(19, 21, 23);
+    border: 1px solid rgb(51, 51, 51);
+    border-radius: 6px;
+    color: white;
+}
+
+#packet1 h3 {
+    background-color: rgb(117, 249, 145);
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    color: black;
+}
+
+.btnPaket {
+    background-color: rgb(117, 249, 145);
+    border: none;
+    border-radius: 5px;
+}
+
+.card-review {
+    border: 1px solid rgb(51, 51, 51);
+    border-radius: 6px;
+    background-color: rgb(19, 21, 23);
+}
+
+.card-review img {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.index-review {
+    font-size: 0.5rem !important;
+}
+
+footer i {
+    margin-right: 1rem;
+    color: white;
+}
+
+#linkInstagram:hover {
+    background: -webkit-radial-gradient(33% 100% circle, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+    background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+    -webkit-background-clip: text;
+    background-clip:calc(0);
+    -webkit-text-fill-color: transparent;
+}
+
+#linkTwitter:hover {
+    color: #1DA1F2;
+}
+
+#linkYoutube:hover {
+    color: #FF0000;
+}
+
+#linkLinkedin:hover {
+    color: #0072b1;
+}
+
+.general-link:hover {
+    color: rgb(117, 249, 145);
+}
+
+footer a,
+footer p {
+    color: rgb(157, 157, 157);
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
+}
+
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    border-radius: 100%;
+    background-color: rgb(117, 249, 145);
+}
+
+.posted-comment {
+    height: fit-content;
+}
+
+.posted-comment .user-img {
+    height: 4rem;
+    width: fit-content;
+}
+
+.posted-comment .user-img img {
+    height: 100%;
+}
+
+.wrapper-comment {
+    display: grid;
+    grid-template-columns: 80px  1fr;
+    grid-gap: 0;
+}
+
+#btnComment,
+#btnFeedback {
+    border: none;
+    border-radius: 0.5rem;
+    background-color: rgb(117, 249, 145);
+}
+
+#btnComment:active,
+#btnFeedback:active {
+    transition: 100ms;
+    background-color: rgba(117, 249, 145, 0.8);
+}
+
+.login-box {
+    background-color: #f6f6f6;
+    border-radius: 7px;
+}
+
+.row-subjects h1 {
+    z-index: 2;
+}
+
+.subjects {
+    border-radius: 10px;
+}
+
+.blackOverlay {
+    /* background-color: rgba(39, 62, 84, 0.5); */
+    background-color: rgba(0, 0, 0, 0.3);
+    opacity: 0.5;
+    z-index: 2;
+    display: none;
+}
+
+.row-subjects:hover .blackOverlay, .row-lessons:hover .blackOverlay {
+    transform: 300ms;
+    opacity: 1;
+}
+
+#overlay {
+    position: fixed;
+    /* Sit on top of the page content */
+    width: 100%;
+    /* Full width (cover the whole page) */
+    height: 100%;
+    /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Black background with opacity */
+    z-index: 2;
+    /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer;
+    /* Add a pointer on hover */
+}
+
+#btnLogin {
+    background-color: rgb(19, 21, 23);
+    border: none;
+    border-radius: 0.3rem;
+    color: white;
+}
+
+.login-links {
+    color: gray;
+}
+
+.login-links:hover {
+    color: black;
+}
+
+.login-links:visited {
+    color: gray;
+}
+
+#login-container {
+    height: 84vh;
+}
+
+#btnCountNabung {
+    border: none;
+    border-radius: 30px;
+}
+
+#spanMenabung {
+    color: rgb(117, 249, 145);
+}
+
+#spanPengeluaran {
+    color: rgb(228, 44, 44);
+}
+
+#containerHasil.show {
+    display: block !important;
+    transition: 1s;
+}
+
+#containerHasil {
+    display: none !important;
+    z-index: 999;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    position: fixed;
+    overflow: auto; /*Enable scroll if needed*/
+    background-color: rgba(0,0,0,0.4);
+    transition: 500ms;
+}
+
+#containerHasil-content {
+    background-color: black;
+    border-radius: 1rem;
+    border: 1px solid rgb(117, 249, 145);
+    width: 85%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#closeHasil {
+    cursor: grab;
+}
+
+#closeHasil:hover {
+    color: red;
+}
+
+.row-subjects {
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.row-lessons {
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.background-zoom {
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+
+.row-subjects:hover .background-zoom, .row-lessons:hover .background-zoom {
+    transform: scale(1.02);
+    transition: all 200ms ease-in;
+}
+
+#bgSubjectIncome {
+    background-image: url("../images/CuanCademy/Subject-Containers/expenses.jpg");
+}
+
+#bgSubjectExpenses {
+    background-image: url("../images/CuanCademy/Subject-Containers/expenses.jpg");
+}
+
+#bgSubjectInvestment {
+    background-image: url("../images/CuanCademy/Subject-Containers/investment2.jpg");
+}
+
+.subject-container {
+    color: black;
+    opacity: 0;
+}
+
+.bgLesson {
+    background-image: url("../images/CuanCademy/Subject-Containers/expenses.jpg");
+}
+
+.sidenav, #spanToggleMateri {
+    background-color: #1f1f1f;
+}
+
+.sidenav {
+    width: 0%;
+    position: fixed;
+    z-index: 1031;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: 0.4s;
+    /* padding-top: ; */
+}
+
+.sidenav a {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: none;
+    transition: 1s;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.sidenav-lessons {
+    background-color: #e1e1e1;
+}
+
+.sidenav-lessons:hover {
+    background-color: #d0d0d0;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+.comment-author {
+    color: rgb(117, 249, 145);
+}
+
+
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+@media (max-width: 280px) {
+    .news-title {
+        font-size: 0.2rem !important;
+    }
+    .news-date,
+    .card-news-author {
+        font-size: 0.1rem !important;
+    }
+}
+
+@media (max-width: 575px) {
+    #nav-item-login {
+        margin-top: 10px;
+        margin-left: 6px;
+    }
+
+    #index-headline {
+        margin-top: 90px;
+    }
+
+    #index-financialcheckup {
+        margin-top: 25px;
+    }
+
+    .row-news {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .card-news,
+    .card-packets {
+        margin-bottom: 7px;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+
+    .news-title {
+        font-size: 0.7rem !important;
+    }
+
+    .news-date,
+    .card-news-author {
+        font-size: 0.5rem !important;
+    }
+
+    .news-image {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .news-image img {
+        /* height: 11rem; */
+        object-fit: scale-down;
+        /* object-fit: contain; */
+    }
+
+    #index-ul {
+        margin-top: 30px;
+    }
+
+    #index-ul li {
+        margin: 20px 0px;
+    }
+
+    #packet1 h3 {
+        padding: 20px 0px;
+    }
+
+    .index-review {
+        font-size: 0.7rem !important;
+    }
+
+    #txtComment {
+        margin-bottom: 0.8rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    #login-body {
+        height: 100vh;
+        background-image: url('../images/login-signup/login.jpg');
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: 999;
+    }
+
+    #imgHasil {
+        max-width: 500px;
+    }
+    
+
+    #spanToggleMateri {
+        top: 50% !important;
+    }
+
+    .comment-author {
+        font-size: 1rem;
+    }
+
+    .comment-date {
+        font-size: 0.8rem;
+    }
+
+    .comment-text {
+        font-size: 0.7rem;
+    }
+}
+
+
+/* // Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) {
+    /* #nav-item-login {
+        margin-top: 10px;
+    } */
+    #nav-item-login {
+        margin-left: 10px;
+    }
+
+    #index-headline {
+        margin-top: 200px;
+    }
+
+    #index-financialcheckup {
+        margin-top: 30px;
+    }
+
+    #index-ul li {
+        margin: 40px 0px;
+    }
+
+    .news-title {
+        font-size: 0.8rem !important;
+    }
+
+    .news
+
+    .news-date,
+    .card-news-author {
+        font-size: 0.6rem !important;
+    }
+
+    #packet1 h3 {
+        background-color: rgb(117, 249, 145);
+        color: black;
+        padding: 10px 0px;
+    }
+
+    footer h3 {
+        font-size: 1.2rem !important;
+    }
+
+    footer h4 {
+        font-size: 1.1rem !important;
+    }
+    
+    #footer-company p {
+        font-size: 0.8rem !important;
+    }
+
+    #footer-event {
+        padding-left: 2rem !important;
+    }
+
+    .news-image {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .news-image img {
+        /* height: 300px; */
+        object-fit: scale-down;
+        /* object-fit: contain; */
+    }
+
+    #btnComment:active {
+        border: 3px solid rgba(117, 249, 145, 0.5);
+    }
+
+    .posted-comment {
+        height: fit-content;
+    }
+
+    .posted-comment .user-img {
+        height: 4rem;
+        width: fit-content;
+    }
+
+    .posted-comment .user-img img {
+        height: 100%;
+    }
+
+    #login-body {
+        height: 84vh;
+        background-image: url('../images/login-signup/login.jpg');
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #containerImgHasil {
+        max-width: 50%;
+    }
+    .row-subjects:hover .subject-container {
+        transition: 500ms;
+        opacity: 1;
+        transform: translateX(-1rem);
+        z-index: 3;
+    }
+
+    .comment-author {
+        font-size: 1.1rem;
+    }
+
+    .comment-date {
+        font-size: 0.8rem;
+    }
+
+    .comment-text {
+        font-size: 0.9rem;
+    }
+
+}
+
+
+/* // Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
+    #nav-item-login {
+        margin-top: 0px;
+    }
+
+    .navbar-profile {
+        display: flex!important;
+        flex-direction: row!important;
+        align-items: center!important;
+    }
+
+    #index-financialcheckup {
+        margin-top: 50px;
+    }
+
+    #index-container {
+        margin-top: 90px;
+    }
+
+    footer .footer-submenu li {
+        margin-top: 1rem;
+    }
+
+    #login-body {
+        height: 100vh;
+        background-image: url('../images/login-signup/login.jpg');
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #newscontent-image {
+        height: 500px;
+        background-image: url(../images/news/cryptocurrency1.jpg);
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .developer-text {
+        font-size: 0.9rem;
+    }
+}
+
+
+/* // Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+    #index-headline .col2 {
+        margin: 80px 0px;
+    }
+
+    #index-ul li {
+        margin: 70px 0px;
+    }
+
+    .news-title {
+        font-size: 1.25rem !important;
+    }
+
+    .news-date,
+    .card-news-author {
+        font-size: 0.8rem !important;
+    }
+
+    .index-review {
+        font-size: 1rem !important;
+    }
+
+    #footer-company h3 {
+        font-size: 1.5rem !important;
+    }
+
+    footer h4 {
+        font-size: 1.4rem !important;
+    }
+
+    #footer-company p {
+        font-size: 1rem !important;
+    }
+
+    #footer-event {
+        padding-left: 2.3rem !important;
+    }
+
+    /* .news-image {
+        width: 100%;
+        overflow: hidden;
+    } */
+
+    .news-image {
+        width: 100%;
+        height: fit-content;
+        margin-bottom: 1.5rem !important;
+    }
+
+    .news-image img {
+        height: 550px;
+        object-fit: cover;
+        /* object-fit: contain; */
+    }
+
+    #login-body {
+        height: 84vh;
+        background-image: url('../images/login-signup/login.jpg');
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .img-tools {
+        max-height: 200px;
+        width: 50%;
+        object-fit: contain;
+        object-position: center center;
+    }
+
+    .row-subjects:hover .subject-container {
+        transition: 500ms;
+        opacity: 1;
+        transform: translateX(-10rem);
+    }
+
+    .developer-text {
+        font-size: 1.25rem;
+    }
+}
+
+
+/* // X-Large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+    #index-headline .col2 {
+        margin: 150px 0px;
+    }
+}
+
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+
+@media (min-width: 1400px) {}
+
+
+/* Hover effects */
+
+
+/* Underline From Left */
+
+.hvr-underline-from-left {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+}
+
+.hvr-underline-from-left:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 100%;
+    bottom: 0;
+    background: rgb(117, 249, 145);
+    height: 1px;
+    -webkit-transition-property: right;
+    transition-property: right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.hvr-underline-from-left:hover:before,
+.hvr-underline-from-left:focus:before,
+.hvr-underline-from-left:active:before {
+    right: 0;
+}
+
+
+/* Underline From Center */
+
+.hvr-underline-from-center {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+}
+
+.hvr-underline-from-center:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 51%;
+    right: 51%;
+    bottom: 0;
+    background: #2098D1;
+    height: 4px;
+    -webkit-transition-property: left, right;
+    transition-property: left, right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.hvr-underline-from-center:hover:before,
+.hvr-underline-from-center:focus:before,
+.hvr-underline-from-center:active:before {
+    left: 0;
+    right: 0;
+}
+
+
+/* Skew */
+
+.hvr-skew {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+
+.hvr-skew:hover,
+.hvr-skew:focus,
+.hvr-skew:active {
+    -webkit-transform: skew(-10deg);
+    transform: skew(-10deg);
+}
+
+
+/* Sweet Alert */
+
+.swal2-styled.swal2-confirm {
+    border-radius: 6px;
+    background-color: rgb(117, 249, 145) !important;
+}
+
+.swal2-styled.swal2-confirm:active,
+.swal2-styled.swal2-confirm:focus {
+    box-shadow: none !important;
+}
+
+.swal2-title {
+    font-family: 'Poppins', 'sans-serif' !important;
+}
+
+.swal2-html-container,
+.swal2-confirm {
+    font-family: 'Montserrat', 'sans-serif' !important;
+}
