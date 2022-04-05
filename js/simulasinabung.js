@@ -97,7 +97,7 @@ function hitungSemua(textFields){
     // Jika pngeluaran >= 80%
     if (persentasePengeluaran >= 80) {
         h2JudulHasil.innerHTML = "Kamu terlalu boros.";
-        imgHasil.setAttribute('src', '../images/nabung/noob.png');
+        imgHasil.setAttribute('src', 'images/nabung/noob.png');
 
         liRekomendasi1.innerHTML = `Sebaiknya batasi pengeluaran hingga <span class="fw-bold font-red">${(0.79 * penghasilan).toLocaleString('id', { style: 'currency', currency: 'IDR'})}</span>`;
         liRekomendasi2.innerHTML = `Alokasikan minimal 20% dari penghasilanmu untuk ditabung, yaitu <span class="font-green fw-bold">${(0.2 * penghasilan).toLocaleString('id', { style: 'currency', currency: 'IDR'})}</span>`;
@@ -109,7 +109,7 @@ function hitungSemua(textFields){
         // Jika pengeluaran antara 50%-79%, maka rekomendasi 1 adalah
         if (persentasePengeluaran >= 50 && persentasePengeluaran < 80) {
             h2JudulHasil.innerHTML = "Anda lumayan hebat.";
-            imgHasil.setAttribute('src', '../images/nabung/intermediate.png');
+            imgHasil.setAttribute('src', 'images/nabung/intermediate.png');
     
             liRekomendasi1.innerHTML = `Jumlah pengeluaran anda sudah baik, karena tidak sampai 80% penghasilan anda(<span class="fw-bold font-red">${(0.8 * penghasilan).toLocaleString('id', { style: 'currency', currency: 'IDR'})}</span>)`;
         }
@@ -117,7 +117,7 @@ function hitungSemua(textFields){
         // Jika kurang dari 50%, maka rekomendasi 1 adalah
         else {
             h2JudulHasil.innerHTML = "Anda Juragan.";
-            imgHasil.setAttribute('src', '../images/nabung/sultan.png');
+            imgHasil.setAttribute('src', 'images/nabung/sultan.png');
     
             liRekomendasi1.innerHTML = `Pengeluaran Anda hanya <span class="fw-bold">${persentasePengeluaran} % </span> dari penghasilan anda, yaitu <span class="fw-bold font-red">${(totalPengeluaran).toLocaleString('id', { style: 'currency', currency: 'IDR'})}</span>. Ini <span class="fw-bold font-green">Sangat Bagus!</span>`;
         }
